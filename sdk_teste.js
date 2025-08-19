@@ -1,4 +1,4 @@
-import { VerifySDK } from './sdk/public/VerifySDK/VerifySDK.js';
+import { VerifySDK } from './public/VerifySDK/VerifySDK.js';
 import { setInitialConfig } from './Config.js';
 
 const apiKey = "sk-DEV-29594928-G070_hPDm9C1UujRbBDfeOTnlqs3KZo6UX0Z0ik6ZgiDudoZW0JOkcaLbk1-2i0J";
