@@ -19,8 +19,8 @@ export class Initialization {
 
       const keys = await ApiService.getFaceTecKeys(apiKey);
       const initializationSuccessful = await new Promise((resolve) => {
-        window.FaceTecSDK.setResourceDirectory("./public/core-sdk/FaceTecSDK.js/resources");
-        window.FaceTecSDK.setImagesDirectory("./public/core-sdk/FaceTec_images");
+        window.FaceTecSDK.setResourceDirectory("https://educinvest.github.io/sdk/public/core-sdk/FaceTecSDK.js/resources");
+        window.FaceTecSDK.setImagesDirectory("https://educinvest.github.io/sdk/public/core-sdk/FaceTec_images");
         window.FaceTecSDK.initializeInProductionMode(
           keys.sdkproductionkey,
          VerifySDK.InitialConfigurations.DeviceKeyIdentifier,
